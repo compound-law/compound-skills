@@ -1,14 +1,18 @@
 ---
 name: saas-agreement
-description: 'Review framework for SaaS subscription agreements. Covers SLA commitments, data ownership, liability caps, and exit provisions.'
+description: 'SaaS contracts shift risk onto you: liability caps, GDPR gaps, and data lock-in. Expert review under German law before you sign.'
 ---
 
 
 ## Overview
 
-This skill provides a structured review of Software-as-a-Service (SaaS) subscription agreements from the customer's perspective under German and EU law. SaaS agreements are legally classified under German law as either lease agreements (Mietvertrag, §§ 535 ff. BGB) for standard SaaS, or as contracts for work and services (Werkvertrag/Dienstvertrag) depending on the obligation structure -- the BGH has not issued a definitive classification, and the prevailing view treats standard SaaS as a lease of software functionality. Key consumer and SME protections apply through AGB control (**§§ 305-310 BGB**), particularly **§ 307** (unreasonable disadvantage test), **§ 308** (prohibited clauses with evaluation possibility), and **§ 309** (strict prohibitions including § 309 Nr. 7 on liability exclusions for personal injury). Use this skill when evaluating vendor-drafted SaaS terms for procurement, renegotiating renewal terms, or assessing data protection and exit risks.
+Under German law, SaaS agreements are classified as **Mietvertrag** (rental agreements, §§ 535 ff. BGB), giving customers statutory defect rights (§ 536 BGB) and extraordinary termination rights (§ 543 BGB). The four highest-risk review areas are: liability caps under §§ 305–310 BGB, data portability, GDPR-compliant processing terms, and exit provisions that prevent data lock-in.
+
+This skill provides a structured review of Software-as-a-Service (SaaS) subscription agreements from the customer's perspective under German and EU law. The BGH has not issued a definitive classification ruling, and the prevailing view treats standard SaaS as a lease of software functionality. Key consumer and SME protections apply through AGB control (**§§ 305–310 BGB**), particularly **§ 307** (unreasonable disadvantage test), **§ 308** (prohibited clauses with evaluation possibility), and **§ 309** (strict prohibitions including § 309 Nr. 7 on liability exclusions for personal injury). Use this skill when evaluating vendor-drafted SaaS terms for procurement, renegotiating renewal terms, or assessing data protection and exit risks.
 
 SaaS agreements present unique risks around data lock-in, unilateral service modifications, opaque subcontracting, and liability caps that may leave the customer without adequate recourse. A thorough review must address commercial terms alongside data protection, intellectual property, and regulatory compliance dimensions.
+
+Common SaaS tools reviewed with this skill include [Airtable](/en-DE/tools/airtable-ai/) and [Notion](/en-DE/tools/notion-ai/). If the vendor uses AI-powered features, additional review of [AI customer service compliance](/en-DE/compliance/ai-customer-service/) under the EU AI Act may apply.
 
 
 ## Systematic Review
@@ -190,6 +194,21 @@ SaaS providers commonly use open-source software components. The agreement shoul
 - Warrant that all open-source use is compliant with applicable licenses
 - Disclose any copyleft-licensed components (GPL, AGPL) that could create obligations for the customer
 - Indemnify the customer against third-party claims arising from the provider's use of open-source components
+
+
+## Frequently Asked Questions
+
+### Is a SaaS agreement a rental contract under German law?
+
+Yes. Under the prevailing view of German courts and legal commentary, standard SaaS agreements are classified as **Mietvertrag** (rental agreements, §§ 535 ff. BGB) because the customer receives temporary access to hosted software without ownership. This classification activates statutory defect rights: the customer may withhold rent proportionally if the service falls below the contractual standard (§ 536 BGB) and may terminate extraordinarily for persistent material failure (§ 543 BGB). The BGH has not issued a definitive ruling, but lower courts consistently apply rental law to cloud SaaS models.
+
+### What GDPR clauses must be in a SaaS contract?
+
+Every SaaS agreement where the vendor processes personal data on behalf of the customer must include a **Data Processing Agreement (Auftragsverarbeitungsvertrag, AVV)** compliant with Art. 28 GDPR. The AVV must specify the subject matter, nature, and purpose of processing, the type of personal data, and the vendor's obligations including data deletion, security measures, and sub-processor management. Without an Art. 28-compliant AVV, using the SaaS service constitutes an independent GDPR violation subject to fines up to EUR 10 million or 2% of global annual turnover.
+
+### What are typical SaaS liability cap risks?
+
+SaaS vendors typically cap liability at one or three months' subscription fees, which is far below actual damages in the event of data loss, a security breach, or prolonged outages. Under §§ 305–310 BGB, such caps are subject to AGB scrutiny: liability for intent and gross negligence cannot be limited (§ 309 Nr. 7 BGB), and caps for breach of cardinal obligations (Kardinalpflichten) must cover at least the typically foreseeable, contract-typical damage. A cap at one month's fees for a cardinal obligation breach may be void under § 307 BGB.
 
 
 ## Limitations of This Skill

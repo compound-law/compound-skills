@@ -1,6 +1,6 @@
 ---
 name: hinweisgebersystem
-description: 'Umsetzungsleitfaden für Hinweisgeberschutzsysteme nach HinSchG und EU-Richtlinie 2019/1937.'
+description: 'Hinweisgebersystem gesetzeskonform einrichten: Meldekanäle, Fristen und Dokumentation nach HinSchG und EU-Richtlinie 2019/1937 — für Unternehmen ab 50 Beschäftigten.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Umsetzungsleitfaden für Hinweisgeberschutzsysteme nach HinSchG un
 Dieser Skill leitet die Implementierung und Prüfung interner Hinweisgebersysteme nach dem **Hinweisgeberschutzgesetz (HinSchG)** an, das die **EU-Richtlinie 2019/1937** umsetzt. Das HinSchG, in Kraft seit dem 2. Juli 2023, verpflichtet Unternehmen zur Einrichtung interner Meldekanäle, über die Beschäftigte und andere Personen Verstöße gegen bestimmte Rechtsvorschriften melden können. Zentrale Vorschriften sind **§ 12** (Pflicht zur Einrichtung interner Meldekanäle), **§ 16** (Anforderungen an den internen Meldekanal), **§ 15** (Bestellung zuständiger Personen), **§ 8** (Vertraulichkeit), **§ 36** (Verbot von Repressalien) und **§ 40** (Bußgeldvorschriften). Dieser Skill ist anzuwenden bei der Einrichtung eines neuen Hinweisgebersystems, bei der Compliance-Prüfung eines bestehenden Systems oder bei der Beratung zur Bearbeitung einer konkreten Meldung.
 
 Das HinSchG erfasst einen breiten Anwendungsbereich melderelevanter Verstöße, darunter Verletzungen von EU-Recht, Straftaten, bestimmte Ordnungswidrigkeiten und sektorspezifische Vorschriften. Unternehmen, die keinen konformen Meldekanal einrichten, drohen Bußgelder bis zu 20.000 EUR (§ 40 Abs. 1 HinSchG), während Behinderung der Meldung oder Repressalien gegen Hinweisgeber mit Bußgeldern bis zu 50.000 EUR geahndet werden können (§ 40 Abs. 2, 6 HinSchG). Über Bußgelder hinaus birgt die Nichtbeachtung erhebliches Reputationsrisiko und kann dazu führen, dass Hinweisgeber sich direkt an externe Behörden oder die Medien wenden.
+
+Das Hinweisgebersystem verarbeitet personenbezogene Daten von Hinweisgebern und Beschuldigten und löst damit [Auftragsverarbeitungsvertrag-Pflichten](/de-DE/skills/auftragsverarbeitung/) für externe Plattformanbieter aus. Ein Beschäftigter, gegen den nach einer Meldung Maßnahmen ergriffen werden, kann Kündigungsschutz beanspruchen — die Prüfcheckliste liefert der Skill [Kündigungsprüfung](/de-DE/skills/kuendigungspruefung/). DSGVO-Auskunftsanfragen in Bezug auf Hinweisgeberfallakten unterliegen besonderen Beschränkungen — die einschlägigen Ausnahmen beschreibt der Skill [DSGVO-Auskunftsanfrage](/de-DE/skills/dsgvo-auskunft/).
 
 
 ## Systematische Prüfung

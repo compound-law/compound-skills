@@ -10,6 +10,8 @@ This skill guides the implementation and review of internal whistleblower report
 
 The HinSchG applies to a broad scope of reportable violations including EU law infringements, criminal offenses (Straftaten), certain administrative violations (Ordnungswidrigkeiten), and sector-specific rules. Companies that fail to establish a compliant reporting channel face fines of up to EUR 20,000 (§ 40 Abs. 1 HinSchG), while obstruction of reporting or retaliation against whistleblowers can result in fines up to EUR 50,000 (§ 40 Abs. 2, 6 HinSchG). Beyond fines, failure to comply creates significant reputational risk and may result in whistleblowers reporting directly to external authorities or the media.
 
+The whistleblower system processes personal data of reporting persons and accused individuals, triggering a [Data Processing Agreement](/en-DE/skills/data-processing-agreement/) obligation for any external platform provider. Where an employee whistleblower subsequently faces adverse action, the termination must be reviewed under the [Employment Termination Review](/en-DE/skills/employment-termination/) skill — the HinSchG burden-of-proof reversal makes procedural compliance critical. For data subject access requests arising from whistleblower case files, see the [GDPR Data Access Request](/en-DE/skills/gdpr-data-request/) skill for the applicable exceptions and deferred disclosure rules.
+
 
 ## Systematic Review
 

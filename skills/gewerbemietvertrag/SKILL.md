@@ -1,6 +1,6 @@
 ---
 name: gewerbemietvertrag
-description: 'Prüfcheckliste für Gewerbemietverträge nach deutschem Recht. Mietanpassungen, Instandhaltungspflichten und Kündigungsrechte.'
+description: 'Gewerbemietvertrag prüfen lassen: Staffelmiete, Nebenkostenregelung, Instandhaltungspflichten und Kündigungsrechte nach § 535 ff. BGB — bevor Sie unterschreiben.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Prüfcheckliste für Gewerbemietverträge nach deutschem Recht. Mi
 Dieser Skill leitet die strukturierte Prüfung von Gewerbemietverträgen nach deutschem Mietrecht an. Im Unterschied zu Wohnraummietverträgen gilt bei Gewerbemietverträgen weitgehende Vertragsfreiheit -- die meisten Schutzvorschriften der **§§ 535 ff. BGB** und des sozialen Mieterschutzes finden keine Anwendung. Wesentliche gesetzliche Grundlagen sind **§ 535 BGB** (Grundpflichten von Vermieter und Mieter), **§ 536 BGB** (Mietminderung bei Mängeln), **§ 543 BGB** (außerordentliche Kündigung aus wichtigem Grund), **§ 550 BGB** (Schriftformerfordernis bei Mietverträgen über mehr als ein Jahr) und **§ 580a BGB** (gesetzliche Kündigungsfristen). Dieser Skill ist anzuwenden bei der Beratung von Mietern oder Vermietern zu neuen Gewerbemietverträgen, Vertragsverlängerungen, Mietanpassungsstreitigkeiten oder Ausstiegsstrategien.
 
 Deutsche Gewerbemietverträge werden typischerweise langfristig geschlossen (5-15 Jahre) mit begrenzten Kündigungsmöglichkeiten. Schriftformmängel nach § 550 BGB können schwerwiegende Folgen haben -- ein Mietvertrag, der das Schriftformerfordernis nicht erfüllt, gilt als auf unbestimmte Zeit geschlossen und kann mit gesetzlicher Frist gekündigt werden, selbst wenn die Parteien eine feste Laufzeit von zehn Jahren beabsichtigt hatten. Die Schriftformprüfung ist daher ein kritischer erster Schritt. Die Vertragsfreiheit bedeutet auch, dass Mieter unwissentlich Verpflichtungen weit über die gesetzlichen Standardregelungen hinaus akzeptieren können, insbesondere bei Instandhaltung, Betriebskosten und Rückbau bei Mietende.
+
+Vor Abschluss eines Gewerbemietvertrags sollte die Unternehmensstruktur des Mieters feststehen — die Grundlagen zur Gründung vermittelt der Skill [GmbH-Gründungs-Checkliste](/de-DE/skills/gmbh-gruendung/). In Mietvertragsverhandlungen ausgetauschte vertrauliche Geschäftsinformationen sind durch eine NDA abzusichern — den Prüfrahmen bietet der Skill [NDA-Prüfung](/de-DE/skills/nda-pruefung/). Standard-AGB des Vermieters in Betriebskostenabrechnungen oder Hausordnungen sind nach dem Skill [AGB-Check](/de-DE/skills/agb-check/) auf Wirksamkeit zu prüfen.
 
 
 ## Systematische Prüfung

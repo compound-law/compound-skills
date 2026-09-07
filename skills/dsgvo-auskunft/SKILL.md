@@ -1,6 +1,6 @@
 ---
 name: dsgvo-auskunft
-description: 'Leitfaden zur Bearbeitung von Auskunftsanfragen nach Art. 15 DSGVO. Fristen, Pflichtangaben und Prozessschritte für deutsche Unternehmen.'
+description: 'DSGVO-Auskunftsanfragen fristgerecht beantworten: Art. 15-Pflichten, 30-Tage-Frist und Pflichtangaben rechtssicher umsetzen — für Unternehmen in Deutschland.'
 ---
 
 
@@ -11,6 +11,8 @@ Dieser Skill leitet durch die vollständige Bearbeitung von Auskunftsanfragen na
 **Rechtsgrundlagen:** Art. 15 DSGVO, Art. 12 DSGVO, BDSG §§ 29, 34.
 
 **Risiko bei Fehlern:** Bußgelder bis 20 Mio. EUR oder 4 % des weltweiten Jahresumsatzes (Art. 83 Abs. 5 DSGVO) sowie Schadensersatzansprüche der Betroffenen (Art. 82 DSGVO).
+
+Werden personenbezogene Daten an externe Auftragsverarbeiter weitergegeben, verpflichtet Art. 28 Abs. 3 lit. e DSGVO den Auftragsverarbeiter zur Unterstützung bei der Auskunftserteilung — die Grundlagen regelt der [Auftragsverarbeitungsvertrag (AVV)](/de-DE/skills/auftragsverarbeitung/). KI-Systeme mit automatisierten Entscheidungen nach Art. 22 DSGVO erzeugen zusätzliche Offenlegungspflichten — den Bewertungsrahmen liefert der [KI-Verordnung Compliance-Check](/de-DE/skills/ki-verordnung-compliance/). Hinweisgebersysteme begründen spezifische Ausnahmen vom Auskunftsanspruch — das HinSchG-Framework beschreibt der Skill [Hinweisgebersystem-Einrichtung](/de-DE/skills/hinweisgebersystem/).
 
 ## Prozess Schritt für Schritt
 

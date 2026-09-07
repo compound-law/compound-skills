@@ -1,6 +1,6 @@
 ---
 name: nda-pruefung
-description: 'KI-gestützter Leitfaden zur Analyse von Geheimhaltungsvereinbarungen nach deutschem Recht. Identifiziert Risiken, fehlende Klauseln und marktunübliche Bedingungen.'
+description: 'KI-gestützte NDA-Analyse nach deutschem Recht. Identifiziert Risiken, fehlende Klauseln und marktunübliche Bedingungen.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'KI-gestützter Leitfaden zur Analyse von Geheimhaltungsvereinbarun
 Dieser Skill leitet die systematische Prüfung von Geheimhaltungsvereinbarungen (NDAs) nach deutschem Recht an. Er deckt einseitige und gegenseitige NDAs ab, vorvertragliche Geheimhaltung, M&A-NDAs und Arbeitnehmer-Geheimhaltungsvereinbarungen. Ziel ist es, Risiken, fehlende Klauseln und marktunübliche Bedingungen zu identifizieren, bevor sie zum Problem werden.
 
 NDAs gelten als **angemessene Geheimhaltungsmaßnahme** im Sinne von **§ 2 Nr. 1 lit. b GeschGehG** und sind damit eine Grundvoraussetzung für den gesetzlichen Geheimnisschutz. Eine fehlerhafte NDA kann dazu führen, dass Geschäftsgeheimnisse ihren Schutzstatus verlieren.
+
+NDAs begleiten häufig Gesellschafterverhandlungen und M&A-Transaktionen — den gesellschaftsrechtlichen Rahmen liefert der Skill [Gesellschaftervereinbarung-Prüfung](/de-DE/skills/gesellschaftervereinbarung/). Soweit die NDA personenbezogene Daten der Parteien umfasst, kann ergänzend ein [Auftragsverarbeitungsvertrag (AVV)](/de-DE/skills/auftragsverarbeitung/) nach Art. 28 DSGVO erforderlich sein. Arbeitnehmer-NDAs mit Wettbewerbsverbotscharakter im Zusammenhang mit einer Kündigung sind nach dem Skill [Kündigungsprüfung](/de-DE/skills/kuendigungspruefung/) hinsichtlich Karenzentschädigung und Formerfordernissen zu bewerten.
 
 
 ## Systematische Prüfung

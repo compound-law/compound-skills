@@ -1,6 +1,6 @@
 ---
 name: arbeitszeugnis
-description: 'Analysiert Arbeitszeugnisse nach deutschem Arbeitsrecht. Entschlüsselt die Zeugnissprache und identifiziert versteckte negative Formulierungen.'
+description: 'Arbeitszeugnis prüfen lassen: Versteckte Negativformulierungen in der deutschen Zeugnissprache (§ 109 GewO) entschlüsseln und bewerten — für Arbeitnehmer und HR-Abteilungen.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Analysiert Arbeitszeugnisse nach deutschem Arbeitsrecht. Entschlü
 Dieser Skill ermöglicht die professionelle Analyse und Bewertung von Arbeitszeugnissen nach deutschem Arbeitsrecht. Er entschlüsselt die codierte Zeugnissprache, identifiziert versteckte Negativformulierungen und bewertet das Zeugnis auf einer Notenskala.
 
 **Rechtsgrundlage:** Das Arbeitszeugnis wird durch **§ 109 GewO** geregelt. Zwei Grundsätze stehen dabei in Spannung zueinander: die **Wahrheitspflicht** (das Zeugnis muss der Wahrheit entsprechen) und die **Wohlwollenspflicht** (es darf das berufliche Fortkommen nicht ungerechtfertigt erschweren). § 109 Abs. 2 GewO verbietet ausdrücklich Merkmale oder Formulierungen, die den Zweck haben, eine andere als die wörtliche Aussage zu treffen. Trotz dieses Verbots hat sich in der Praxis ein umfassendes System versteckter Codes etabliert.
+
+Arbeitszeugnisse werden typischerweise im Rahmen des Beendigungsprozesses ausgestellt — die vollständige Kündigungscheckliste findet sich im Skill [Kündigungsprüfung](/de-DE/skills/kuendigungspruefung/). Die im Arbeitsvertrag enthaltenen Regelungen beeinflussen auch Zeugnisanspruch und Fristen — eine Überprüfung der Vertragsgrundlagen ermöglicht der Skill [Arbeitsvertragsprüfung](/de-DE/skills/arbeitsvertragspruefung/). Bei nachvertraglichen Geheimhaltungspflichten empfiehlt sich ergänzend die Prüfung nach dem Skill [NDA-Prüfung](/de-DE/skills/nda-pruefung/).
 
 ## Anwendungsbereich
 

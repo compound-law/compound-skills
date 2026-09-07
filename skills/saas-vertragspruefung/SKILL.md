@@ -1,7 +1,24 @@
 ---
 name: saas-vertragspruefung
-description: 'Prüfrahmen für SaaS-Abonnementverträge. SLA-Zusagen, Dateneigentum, Haftungsobergrenzen und Ausstiegsklauseln.'
+description: 'SaaS-Verträge rechtssicher prüfen: SLAs, Dateneigentum, Haftung und Ausstiegsklauseln nach deutschem Recht. Anwaltliche Prüfung für B2B-Unternehmen.'
 ---
+
+
+Eine **SaaS-Vertragsprüfung** analysiert die Allgemeinen Geschäftsbedingungen und Vertragsklauseln eines Software-as-a-Service-Anbieters aus der Perspektive des Kunden — und deckt Haftungsrisiken, Daten-Lock-in-Klauseln und DSGVO-Verstöße auf, bevor Sie unterzeichnen. Compound Law prüft SaaS-Verträge nach deutschem Recht (BGB §§ 305–310) sowie EU-Recht und gibt konkrete Empfehlungen für die Vertragsverhandlung. Das Ergebnis: ein strukturiertes Prüfgutachten mit Risikobewertung — in der Regel innerhalb von zwei bis drei Werktagen.
+
+**Aktueller Hinweis (2025/2026):** Seit dem 12. September 2025 gilt der **EU Data Act** (Verordnung (EU) 2023/2854). Er verpflichtet Cloud- und SaaS-Anbieter zu erleichtertem Anbieterwechsel, prohibitionsfreien Exportschnittstellen und maximalen Wechselgebühren (Abbaupfad bis Ende 2027 auf null). Zudem ist **DORA** (Digital Operational Resilience Act) seit dem 17. Januar 2025 für alle Finanzunternehmen verbindlich und stellt konkrete Anforderungen an ICT-Drittanbieterverträge. Beide Regelwerke verändern, was ein marktkonformer SaaS-Vertrag heute enthalten muss.
+
+## Warum SaaS-Verträge anwaltlich prüfen lassen?
+
+Einen SaaS-Vertrag prüfen zu lassen lohnt sich für jedes Unternehmen, das cloudbasierte Software einsetzt. Die meisten Anbieter verwenden einseitig formulierte AGB, die Haftungsrisiken, Daten-Lock-in und automatische Verlängerungen zu ihren Gunsten regeln. Eine anwaltliche Prüfung deckt kritische Schwachstellen auf, bevor Sie unterzeichnen — nicht erst dann, wenn ein Streit entsteht.
+
+Compound prüft SaaS-Verträge nach deutschem und EU-Recht und identifiziert folgende Schlüsselrisiken:
+
+- **SLA-Lücken:** Unverbindliche Verfügbarkeitszusagen und fehlende Kündigungsrechte bei Dauerversagen
+- **Daten-Lock-in:** Proprietäre Exportformate, fehlende Löschpflichten, unklares Dateneigentum
+- **AGB-Unwirksamkeit:** Klauseln, die §§ 307–309 BGB verletzen — insbesondere Haftungsausschlüsse und einseitige Leistungsänderungen
+- **Automatische Verlängerung:** Kurze Kündigungsfristen und unbeschränkte Preiserhöhungsrechte
+- **DSGVO-Risiken:** Fehlender oder nicht Art.-28-konformer Auftragsverarbeitungsvertrag (AVV)
 
 
 ## Überblick
@@ -68,6 +85,12 @@ Daten-Lock-in ist das strategisch gefährlichste Risiko bei SaaS-Verträgen. Ste
 - **Datenexport (Portabilität):** Der Kunde sollte alle Kundendaten jederzeit während der Vertragslaufzeit und für einen definierten Zeitraum nach Vertragsende (30-90 Tage sind Standard) in standardisierten, maschinenlesbaren Formaten (CSV, JSON, XML oder branchenspezifische Formate) exportieren können. Die Exportfunktion sollte als Selbstbedienungsfunktion ohne Zusatzkosten verfügbar sein.
 - **Datenlöschung nach Vertragsende:** Der Anbieter muss alle Kundendaten innerhalb einer festgelegten Frist nach Vertragsende löschen (30 Tage sind üblich) und die Löschung **schriftlich bestätigen**. Prüfen Sie, ob die Löschungspflicht auch Backups und Disaster-Recovery-Kopien erfasst -- vollständige Löschung von Backups kann technisch unpraktikabel sein, in diesem Fall sollte der Vertrag eine maximale Aufbewahrungsfrist für Backup-Kopien (typischerweise 90-180 Tage) mit Zugangsbeschränkungen vorsehen.
 - **Verschlüsselung:** Prüfen Sie, ob der Vertrag Verschlüsselung bei der Übertragung (TLS 1.2+) und im Ruhezustand (AES-256 oder gleichwertig) vorsieht. Bring-your-own-key (BYOK) oder Hold-your-own-key (HYOK)-Verschlüsselung gibt dem Kunden Kontrolle über die Verschlüsselungsschlüssel.
+- **EU Data Act — Anbieterwechselpflichten (ab 12. September 2025):** Die EU-Datenwirtschaftsverordnung (Verordnung (EU) 2023/2854, Art. 23–31) verpflichtet Cloud- und SaaS-Anbieter ab September 2025 zu konkret ausgestalteten Wechselerleichterungen:
+  - **Standardisierte Exportschnittstellen:** Anbieter müssen offene, interoperable Schnittstellen und Datenformate für den Wechsel zu einem anderen Anbieter bereitstellen.
+  - **Maximale Wechselgebühren:** Wechselgebühren dürfen ab September 2025 nur die tatsächlichen Umstellungskosten decken; ab Ende 2027 sind Wechselgebühren vollständig untersagt.
+  - **Mindestübergangsphase:** Anbieter müssen dem wechselwilligen Kunden eine Übergangsphase von mindestens 30 Tagen gewähren, in der alle Funktionalitäten und Daten zugänglich bleiben.
+  - **Technische Mindestanforderungen:** Europäische Normungsgremien (ENISA, CEN/CENELEC) entwickeln harmonisierte Standards für Wechselschnittstellen; Anbieter müssen diese nach Verabschiedung einhalten.
+  - **Praxisrelevanz:** Prüfen Sie, ob der SaaS-Vertrag die EU-DA-Anforderungen bereits abbildet oder ob der Anbieter für 2025/2026 einen Compliance-Fahrplan zugesagt hat. Ältere Vertragswerke erfüllen diese Anforderungen typischerweise nicht.
 
 **Risikokennzeichnung:**
 - Anbieter beansprucht Eigentum an oder umfassende Lizenz an Kundendaten
@@ -76,10 +99,12 @@ Daten-Lock-in ist das strategisch gefährlichste Risiko bei SaaS-Verträgen. Ste
 - Keine Löschungspflicht oder keine schriftliche Löschbestätigung
 - Löschungspflicht schließt Backup-Kopien ohne Aufbewahrungsfrist aus
 - Keine Verschlüsselung im Ruhezustand oder bei der Übertragung für Kundendaten
+- Wechselgebühren über tatsächliche Umstellungskosten hinaus (EU Data Act ab September 2025 unzulässig)
+- Keine standardisierten Exportschnittstellen für Anbieterwechsel trotz EU-DA-Anwendbarkeit
 
 ### Schritt 4: Haftungsbegrenzungen und -ausschlüsse (§§ 305-310 BGB)
 
-Das deutsche AGB-Recht setzt zwingende Grenzen für Haftungsausschlüsse in Allgemeinen Geschäftsbedingungen. SaaS-Anbieter treiben Haftungsobergrenzen häufig auf das Minimum -- der Kunde muss prüfen, ob die Obergrenzen angemessenen Schutz bieten.
+Das deutsche AGB-Recht setzt zwingende Grenzen für Haftungsausschlüsse in Allgemeinen Geschäftsbedingungen (→ vertiefend: [AGB-Check](/de-DE/skills/agb-check/)). SaaS-Anbieter treiben Haftungsobergrenzen häufig auf das Minimum — der Kunde muss prüfen, ob die Obergrenzen angemessenen Schutz bieten.
 
 - **Zwingende unbeschränkte Haftung:** Nach deutschem Recht können folgende Haftungskategorien in AGB **nicht ausgeschlossen oder begrenzt** werden:
   - **Personenschäden durch Fahrlässigkeit (§ 309 Nr. 7 lit. a BGB):** Jede Klausel, die die Haftung für Tod oder Körperverletzung durch Fahrlässigkeit ausschließt oder begrenzt, ist per se unwirksam.
@@ -132,7 +157,7 @@ Das Vertragsende ist häufig der Zeitpunkt, an dem sich die gravierendsten Risik
 - **Übergangsphase nach Vertragsende:** Der Vertrag sollte eine Übergangsphase vorsehen (60-180 Tage sind bei Enterprise-SaaS Standard), während der der Kunde Zugriff auf den Dienst und die Datenexportfunktionalität behält, entweder zum bestehenden Abonnementpreis oder zu einem definierten Übergangstarif.
 - **Migrationsunterstützung:** Bei komplexen SaaS-Implementierungen sollte der Anbieter Migrationshilfe anbieten -- Datenmapping, API-Zugang für Migrationstools und technischen Support für den Übergang zu einem Ersatzdienst. Prüfen Sie die Kosten und ob sie gedeckelt sind.
 - **Datenportabilität beim Ausstieg:** Bestätigen Sie, dass die Datenexportregelungen (Schritt 3) während der Übergangsphase gelten und dass alle Daten, einschließlich historischer Daten, Protokolle und Konfigurationen, exportiert werden können.
-- **DSGVO Art. 28 AVV-Erfordernis:** Verarbeitet der SaaS-Anbieter personenbezogene Daten im Auftrag des Kunden, ist ein **Auftragsverarbeitungsvertrag (AVV)** nach Art. 28 DSGVO zwingend erforderlich. Der AVV sollte separat unter Verwendung des Data Processing Agreement Skills geprüft werden. Stellen Sie sicher, dass der SaaS-Hauptvertrag den AVV referenziert oder einbezieht und dass die Beendigung des SaaS-Vertrags die Löschungspflichten des AVV auslöst.
+- **DSGVO Art. 28 AVV-Erfordernis:** Verarbeitet der SaaS-Anbieter personenbezogene Daten im Auftrag des Kunden, ist ein **[Auftragsverarbeitungsvertrag (AVV)](/de-DE/skills/auftragsverarbeitung/)** nach Art. 28 DSGVO zwingend erforderlich. Der AVV sollte separat geprüft werden. Stellen Sie sicher, dass der SaaS-Hauptvertrag den AVV referenziert oder einbezieht und dass die Beendigung des SaaS-Vertrags die Löschungspflichten des AVV auslöst.
 - **Insolvenz oder Diensteinstellung des Anbieters:** Bei geschäftskritischem SaaS sollte der Kunde Schutzregelungen verhandeln:
   - **Quellcode-Escrow:** Ein Dritter verwahrt den Quellcode, der bei auslösenden Ereignissen (Insolvenzantrag des Anbieters, dauerhafte wesentliche SLA-Verletzung, Diensteinstellung) an den Kunden freigegeben wird. Die Escrow-Vereinbarung sollte das Recht umfassen, den Code zu hosten und zu modifizieren.
   - **Daten-Escrow:** Getrennt vom Quellcode sollten die Kundendaten auch bei Ausfall der Anbieterinfrastruktur zugänglich sein.
@@ -162,6 +187,8 @@ Das Vertragsende ist häufig der Zeitpunkt, an dem sich die gravierendsten Risik
 | Einseitige Leistungsänderungen | Kernfunktionalität während der Laufzeit entfernt | Keine wesentliche Verschlechterung + Kündigungsrecht bei wesentlicher Änderung |
 | Anbieterinsolvenz | Verlust des Zugangs zu Daten und Dienst | Quellcode-Escrow + Datenexport + Übergangsphase |
 | Keine Löschbestätigung | Daten nach Vertragsende aufbewahrt | Schriftliche Bestätigung innerhalb von 30 Tagen verlangen |
+| Fehlende EU-DA-Wechselklauseln (ab Sept. 2025) | Prohibition überhöhter Wechselgebühren nicht vertraglich gesichert | EU-Data-Act-konforme Portabilitäts- und Wechselregelungen explizit einbeziehen |
+| DORA-Nichtkonformität (Finanzunternehmen) | Aufsichtsrechtliche Sanktionen durch BaFin, EBA | DORA-Pflichtklauseln nach Art. 30 vor nächster Verlängerung nachverhandeln |
 
 
 ## Besondere Szenarien
@@ -178,7 +205,15 @@ Eine der umstrittensten Klauseln in SaaS-Verträgen. Nach deutschem AGB-Recht (�
 
 Finanzdienstleistungen, Gesundheitswesen und öffentlicher Sektor unterliegen zusätzlichen Anforderungen:
 
-- **BaFin-Auslagerungsanforderungen (MaRisk AT 9):** Finanzinstitute müssen vor Auslagerung an einen SaaS-Anbieter eine Risikoanalyse durchführen, Audit- und Zugangsrechte für die BaFin vereinbaren und sicherstellen, dass der Dienst ohne Unterbrechung übertragen werden kann.
+- **DORA — Digital Operational Resilience Act (ab 17. Januar 2025):** Die Verordnung (EU) 2022/2554 gilt verbindlich für Banken, Versicherungen, Wertpapierfirmen, Zahlungsdienstleister, Krypto-Dienstleister und weitere Finanzunternehmen. SaaS-Verträge mit ICT-Drittanbietern müssen nach Art. 30 DORA zwingend folgende Punkte enthalten:
+  - **Vollständige Leistungsbeschreibung** mit Angabe aller Datenspeicherorte (einschließlich Backup- und Disaster-Recovery-Standorte) und verarbeiteten Datenkategorien
+  - **Audit- und Inspektionsrechte** für das Finanzunternehmen, seine Auftragnehmer und zuständige Aufsichtsbehörden (EBA, BaFin), einschließlich unangekündigter Vor-Ort-Prüfungen
+  - **Unterstützungspflichten bei ICT-Vorfällen:** Der Anbieter muss Vorfälle melden, bei der Ursachenanalyse mitwirken und den DORA-Meldeprozess des Finanzunternehmens gegenüber den Behörden unterstützen
+  - **Exit-Strategie und Übertragbarkeit:** Dokumentierter Ausstiegsplan, der einen geordneten Übergang zur eigenen Infrastruktur oder einem Alternativanbieter ohne Unterbrechung der Dienste ermöglicht
+  - **Subdienstleister-Kaskade:** Transparenz über alle wesentlichen Unterauftragnehmer; Änderungen bedürfen der vorherigen Zustimmung oder Notifizierung
+  - **Kritische IKT-Drittanbieter** (CTPP): SaaS-Anbieter, die von den europäischen Aufsichtsbehörden als kritisch eingestuft werden, unterliegen zusätzlichen aufsichtlichen Anforderungen und Penetrationstests.
+  - **Praxisrelevanz:** Ältere SaaS-Musterverträge enthalten keine DORA-konformen Klauseln. Finanzunternehmen sind verpflichtet, bestehende Verträge bis spätestens zur nächsten Verlängerung anzupassen.
+- **BaFin-Auslagerungsanforderungen (MaRisk AT 9):** Finanzinstitute müssen vor Auslagerung an einen SaaS-Anbieter eine Risikoanalyse durchführen, Audit- und Zugangsrechte für die BaFin vereinbaren und sicherstellen, dass der Dienst ohne Unterbrechung übertragen werden kann. MaRisk bleibt neben DORA anwendbar, soweit strengere nationale Anforderungen bestehen.
 - **Gesundheitsdaten (§ 203 StGB):** SaaS-Anbieter, die dem Berufsgeheimnis unterliegende Daten (medizinisch, anwaltlich, steuerlich) verarbeiten, müssen formell befugt werden. Ein AVV allein genügt nicht -- eine gesonderte Einwilligung nach § 203 StGB ist erforderlich.
 - **Öffentliche Beschaffung:** Cloud-Dienste müssen den BSI C5 Cloud-Sicherheitsstandard (oder gleichwertig) und die EVB-IT Cloud-Bedingungen der Bundesregierung einhalten.
 
@@ -189,6 +224,19 @@ SaaS-Anbieter verwenden häufig Open-Source-Softwarekomponenten. Der Vertrag sol
 - Gewährleisten, dass alle Open-Source-Nutzungen lizenzkonform sind
 - Copyleft-lizenzierte Komponenten (GPL, AGPL) offenlegen, die Pflichten für den Kunden begründen können
 - Den Kunden gegen Ansprüche Dritter aus der Open-Source-Nutzung des Anbieters freistellen
+
+
+## Wie läuft eine SaaS-Vertragsprüfung bei Compound ab?
+
+Wenn Sie uns Ihren SaaS-Vertrag einreichen, folgt Compound einem strukturierten Ablauf:
+
+1. **Einreichung:** Laden Sie den SaaS-Vertrag, die AGB und alle Service-Schedules hoch. Je vollständiger die Unterlagen, desto präziser die Prüfung.
+2. **Triage:** Wir bewerten zunächst die kritischsten Klauseln — Haftungsdeckelung, Dateneigentum und SLA-Verbindlichkeit — und kennzeichnen sofort handlungsbedürftige Risiken.
+3. **Vollständige Prüfung:** Alle sechs Prüfungsschritte (Leistungsbeschreibung, Support, Datenhoheit, Haftung, Verlängerung, Ausstieg) werden systematisch durchgearbeitet.
+4. **Gutachten:** Sie erhalten ein strukturiertes Prüfgutachten mit Risikomatrix, Bewertung nach BGB und DSGVO sowie konkreten Verhandlungsempfehlungen für jede problematische Klausel.
+5. **Nachgespräch:** Optional besprechen wir Verhandlungsstrategien für die Nachverhandlung mit dem Anbieter.
+
+Der Gesamtprozess dauert in der Regel **zwei bis fünf Werktage** — bei Standard-AGB schneller, bei komplexen Enterprise-Verträgen mit umfangreichen Anlagen entsprechend länger.
 
 
 ## Grenzen dieses Skills
@@ -203,3 +251,42 @@ Dieser Skill bietet eine strukturierte Erstbewertung. In folgenden Fällen ist d
 - **Rechtsstreitigkeiten** aus SLA-Verletzungen, Datenverlust oder einseitiger Dienstbeendigung
 
 Compound unterstützt gerne bei der Prüfung, Verhandlung und Strukturierung von SaaS-Verträgen, die die Interessen des Kunden nach deutschem und EU-Recht schützen.
+
+
+## Häufig gestellte Fragen zur SaaS-Vertragsprüfung
+
+### Was wird bei einer SaaS-Vertragsprüfung geprüft?
+
+Bei einer professionellen SaaS-Vertragsprüfung werden alle wesentlichen Vertragsbereiche analysiert: Leistungsbeschreibung und SLA-Zusagen, Dateneigentum und Portabilität, Haftungsbegrenzungen nach §§ 307–309 BGB, automatische Verlängerungsklauseln, Preisänderungsrechte, Ausstiegsregelungen sowie DSGVO-Konformität einschließlich AVV nach Art. 28 DSGVO.
+
+### Welche Klauseln sind in SaaS-Verträgen besonders kritisch?
+
+Besonders kritisch sind Haftungsobergrenzen (häufig auf eine Monatsvergütung reduziert), einseitige Leistungsänderungen ohne Kündigungsrecht, Datennutzungsrechte des Anbieters (insbesondere für KI-Training oder Benchmarking), automatische Verlängerungen mit kurzen Kündigungsfristen sowie fehlende oder unvollständige AVVs.
+
+### Ist ein Auftragsverarbeitungsvertrag (AVV) beim SaaS-Vertrag Pflicht?
+
+Ja. Verarbeitet ein SaaS-Anbieter personenbezogene Daten im Auftrag des Kunden, ist ein [AVV nach Art. 28 DSGVO](/de-DE/skills/auftragsverarbeitung/) zwingend erforderlich. Das gilt für nahezu alle SaaS-Anwendungen, die Mitarbeiter- oder Kundendaten verarbeiten. Fehlt der AVV oder entspricht er nicht den Anforderungen, drohen Bußgelder nach Art. 83 DSGVO.
+
+### Kann ich einen SaaS-Vertrag selbst prüfen?
+
+Eine erste Einschätzung können Sie mit diesem strukturierten Prüfrahmen selbst vornehmen. Für eine rechtssichere Bewertung — insbesondere bei Enterprise-SaaS, kritischer Infrastruktur oder regulierten Branchen — empfiehlt sich die anwaltliche Prüfung durch auf IT- und Vertragsrecht spezialisierte Anwälte.
+
+### Welche Klauseln sollte ich bei einem SaaS-Vertrag nachverhandeln?
+
+Die wichtigsten Verhandlungspunkte sind: Erhöhung der Haftungsobergrenze auf mindestens 100 % der Jahresvergütung (unbeschränkt bei Datenschutzverstößen), Aufnahme einer verbindlichen SLA mit Kündigungsrecht bei Dauerversagen, Absicherung des Datenexports in Standardformaten, Verlängerung der Kündigungsfrist auf mindestens 90 Tage sowie Begrenzung von Preiserhöhungsrechten. Bei regulierten Unternehmen kommen Audit-Rechte und branchenspezifische Compliance-Anforderungen hinzu.
+
+### Wie lange dauert eine SaaS-Vertragsprüfung beim Anwalt?
+
+Eine strukturierte SaaS-Vertragsprüfung dauert je nach Vertragsumfang in der Regel zwei bis fünf Werktage. Bei standardisierten AGB kann eine Erstbewertung schneller erfolgen; individuelle Enterprise-Verträge mit umfangreichen Anlagen und Service-Schedules erfordern mehr Zeit.
+
+### Welche deutschen Gesetze gelten für SaaS-Verträge?
+
+SaaS-Verträge unterliegen primär dem deutschen BGB: Mietrecht (§§ 535 ff. BGB) für Standard-SaaS, AGB-Kontrolle (§§ 305–310 BGB), Datenschutzrecht (DSGVO, BDSG) sowie branchenspezifische Regelungen (MaRisk AT 9 für Finanzdienstleister, § 203 StGB für berufsgeheimnistragende Berufe). Bei Datenverarbeitung in Drittländern greifen zusätzlich die Vorgaben zu internationalem Datentransfer (Art. 44 ff. DSGVO).
+
+### Was ändert der EU Data Act für SaaS-Verträge ab September 2025?
+
+Der EU Data Act (Verordnung (EU) 2023/2854, Art. 23–31) verpflichtet Cloud- und SaaS-Anbieter ab dem 12. September 2025, den Anbieterwechsel aktiv zu erleichtern. Konkret müssen Anbieter: standardisierte Exportschnittstellen bereitstellen, Wechselgebühren auf die tatsächlichen Umstellungskosten begrenzen (ab Ende 2027 vollständig kostenfrei) und eine Übergangsphase von mindestens 30 Tagen gewähren. Ältere SaaS-Verträge enthalten diese Klauseln typischerweise nicht — bei der nächsten Verlängerung oder Neuverhandlung sollten EU-DA-konforme Portabilitäts- und Wechselregelungen ausdrücklich vereinbart werden.
+
+### Was kostet eine SaaS-Vertragsprüfung?
+
+Die Kosten hängen vom Umfang des Vertrags und dem erforderlichen Prüfungsaufwand ab. Nehmen Sie Kontakt mit Compound auf — wir besprechen Ihren konkreten Bedarf und unterbreiten ein transparentes Angebot für die anwaltliche Prüfung Ihres SaaS-Vertrags.

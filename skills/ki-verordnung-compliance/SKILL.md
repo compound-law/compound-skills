@@ -1,6 +1,6 @@
 ---
 name: ki-verordnung-compliance
-description: 'Prüfrahmen für die EU-KI-Verordnung. Risikoklassifizierung, Dokumentationspflichten und Konformitätsbewertung.'
+description: 'EU AI Act Compliance umsetzen: KI-Systeme nach EU-KI-Verordnung (VO 2024/1689) klassifizieren, Dokumentationspflichten erfüllen und Konformitätsbewertung durchführen.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Prüfrahmen für die EU-KI-Verordnung. Risikoklassifizierung, Doku
 Dieser Skill bietet eine strukturierte Compliance-Bewertung für KI-Systeme nach der **Verordnung (EU) 2024/1689** -- dem EU AI Act. Die Verordnung etabliert einen risikobasierten Regulierungsrahmen mit vier Stufen: unannehmbares Risiko (verboten), hohes Risiko (streng reguliert), begrenztes Risiko (Transparenzpflichten) und minimales Risiko (weitgehend unreguliert). Zentrale Vorschriften sind **Art. 5** (verbotene KI-Praktiken), **Art. 6** (Einstufung von Hochrisiko-Systemen), **Art. 8-15** (Anforderungen an Hochrisiko-Systeme), **Art. 26** (Betreiberpflichten) und **Art. 50** (Transparenzpflichten). Dieser Skill ist anzuwenden bei der Beratung zur Einführung, Beschaffung oder Entwicklung von KI-Systemen innerhalb der EU oder bei einer Compliance-Gap-Analyse bestehender Systeme.
 
 Der AI Act gilt für Anbieter, Betreiber, Importeure und Händler von KI-Systemen, die auf dem EU-Markt bereitgestellt werden oder deren Output in der EU genutzt wird, unabhängig vom Sitz des Anbieters (Art. 2 Abs. 1). Deutsche Unternehmen müssen zudem das Zusammenspiel mit der DSGVO, sektorspezifischer Regulierung (z. B. MDR für medizinische KI, MiFID II für Finanz-KI, Produkthaftungsrichtlinie) und den zu erwartenden nationalen Durchführungsbestimmungen berücksichtigen. Die extraterritoriale Reichweite bedeutet, dass auch Nicht-EU-Anbieter mit EU-Kunden erfasst werden.
+
+KI-Systeme, die personenbezogene Daten verarbeiten, erfordern parallel einen konformen [Auftragsverarbeitungsvertrag (AVV)](/de-DE/skills/auftragsverarbeitung/) nach Art. 28 DSGVO. Betroffene Personen, die automatisierten Entscheidungen nach Art. 22 DSGVO unterliegen, haben weitergehende Auskunftsrechte — der Bearbeitungsprozess ist im Skill [DSGVO-Auskunftsanfrage](/de-DE/skills/dsgvo-auskunft/) beschrieben. Unternehmen, die KI-gestützte Mitarbeiterüberwachung einsetzen, müssen zudem prüfen, ob ein [Hinweisgebersystem](/de-DE/skills/hinweisgebersystem/) nach HinSchG einschlägig ist — § 87 Abs. 1 Nr. 6 BetrVG greift bei technischen Überwachungseinrichtungen.
 
 
 ## Systematische Prüfung

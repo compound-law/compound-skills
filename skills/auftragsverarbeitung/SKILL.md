@@ -1,6 +1,6 @@
 ---
 name: auftragsverarbeitung
-description: 'Prüfrahmen für DSGVO-konforme Auftragsverarbeitungsverträge. Art. 28-Anforderungen, Unterauftragnehmer und Drittlandtransfers.'
+description: 'AVV rechtssicher gestalten: Art. 28 DSGVO-Anforderungen, Unterauftragnehmer-Regelungen und Drittlandtransfers anwaltlich prüfen — Bußgelder bis 10 Mio. EUR vermeiden.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Prüfrahmen für DSGVO-konforme Auftragsverarbeitungsverträge. Ar
 Dieser Skill leitet die Prüfung von Auftragsverarbeitungsverträgen (AVV) nach **Art. 28 DSGVO** an. Wenn ein Verantwortlicher einen Auftragsverarbeiter mit der Verarbeitung personenbezogener Daten beauftragt, ist ein schriftlicher AVV zwingend erforderlich (Art. 28 Abs. 3 DSGVO). Das Fehlen eines konformen AVV stellt einen eigenständigen DSGVO-Verstoß dar, der mit Bußgeldern bis zu 10 Mio. EUR oder 2 % des weltweiten Jahresumsatzes geahndet werden kann (**Art. 83 Abs. 4 lit. a DSGVO**). Dieser Skill ist anzuwenden beim Onboarding neuer Dienstleister, bei der Prüfung bestehender Auftragsverarbeitungsverhältnisse oder bei der Bewertung von AVV-Entwürfen der Anbieterseite. Wesentliche Vorschriften sind **Art. 28** (Pflichten des Auftragsverarbeiters), **Art. 32** (Sicherheit der Verarbeitung), **Art. 44-49** (internationale Übermittlungen) und **§ 62 BDSG** (zusätzliche deutsche Anforderungen für öffentliche Stellen).
 
 In der Praxis werden die meisten AVV vom Auftragsverarbeiter erstellt und als nicht verhandelbar präsentiert. Der prüfende Rechtsanwalt muss die zwingenden Pflichtinhalte identifizieren, Abweichungen von den DSGVO-Anforderungen kennzeichnen und bewerten, ob die Risiko- und Verantwortungsverteilung für den Verantwortlichen akzeptabel ist. Deutsche Aufsichtsbehörden -- insbesondere die Landesdatenschutzbeauftragten (LfDI) und der Bundesdatenschutzbeauftragte (BfDI) -- haben detaillierte Leitlinien veröffentlicht und Bußgelder gezielt wegen mangelhafter AVV verhängt.
+
+Betroffene Personen, deren Daten im Rahmen des AVV verarbeitet werden, haben Auskunftsrechte nach Art. 15 DSGVO — der Bearbeitungsprozess ist im Skill [DSGVO-Auskunftsanfrage](/de-DE/skills/dsgvo-auskunft/) beschrieben. Für KI-Systeme, die als Auftragsverarbeiter personenbezogene Daten verarbeiten, begründet der [KI-Verordnung Compliance-Check](/de-DE/skills/ki-verordnung-compliance/) zusätzliche Dokumentationspflichten neben dem AVV. Hinweisgebersysteme, die externe Plattformanbieter einsetzen, erfordern ebenfalls einen konformen AVV — den vollständigen Compliance-Rahmen beschreibt der Skill [Hinweisgebersystem-Einrichtung](/de-DE/skills/hinweisgebersystem/).
 
 
 ## Systematische Prüfung
@@ -145,6 +147,8 @@ SaaS-AVV sind typischerweise nicht verhandelbar. Fokussieren Sie auf:
 - **Unterauftragsverarbeiter-Proliferation:** Große SaaS-Anbieter listen ggf. Dutzende Unterauftragsverarbeiter. Prüfen Sie Aktualität und ob der Änderungsbenachrichtigungsmechanismus echte Widerspruchsmöglichkeit bietet.
 - **Datenstandort:** Bestätigen Sie, ob Daten ausschließlich im EWR oder auch in Drittländern gespeichert werden. "EU-Datenresidenz"-Optionen können gegen Aufpreis verfügbar sein.
 - **Verschlüsselung und Zugang:** Prüfen Sie, ob der Anbieter auf unverschlüsselte Kundendaten zugreifen kann. BYOK- oder HYOK-Verschlüsselung kann den Zugangsrisiko mindern.
+- **EU Data Act — Portabilität und Anbieterwechsel (ab 12. September 2025):** Seit dem **EU Data Act** (Verordnung (EU) 2023/2854, Art. 23–31) müssen Cloud- und SaaS-Anbieter aktiv den Wechsel zu alternativen Diensten ermöglichen. Ein DSGVO-konformer AVV allein genügt nicht mehr für einen vollständig marktkonformen Vertrag: Prüfen Sie, ob der AVV oder der zugehörige Hauptvertrag standardisierte Exportschnittstellen, maximale Wechselgebühren (ab Ende 2027 kostenfrei) und eine Mindest-Übergangsphase von 30 Tagen vorsieht. Ältere AVV-Templates erfüllen diese Anforderungen regelmäßig nicht und sind bei der nächsten Vertragsverlängerung anzupassen (→ [SaaS-Vertrag prüfen lassen](/de-DE/skills/saas-vertragspruefung/)).
+- **DORA — IKT-Drittanbieterverträge für Finanzunternehmen (ab 17. Januar 2025):** Ist der Auftragsverarbeiter ein IKT-Drittanbieter eines Finanzunternehmens, gelten neben dem AVV nach Art. 28 DSGVO die Mindestanforderungen des **Digital Operational Resilience Act** (Verordnung (EU) 2022/2554, Art. 30). Der Vertrag muss dann zwingend Auditrechte für zuständige Aufsichtsbehörden (EBA, BaFin), Unterstützungspflichten bei IKT-Vorfällen und eine dokumentierte Exit-Strategie enthalten. Ein DSGVO-AVV ohne diese DORA-Klauseln ist für Finanzunternehmen unvollständig.
 
 ### Konzerninterne AVV
 
@@ -164,6 +168,6 @@ Dieser Skill bietet eine strukturierte Erstbewertung. In folgenden Fällen ist d
 - **Reaktion auf Datenschutzverletzungen**, bei denen der Verstoß des Auftragsverarbeiters Meldepflichten des Verantwortlichen nach Art. 33/34 DSGVO auslöst
 - **Aufsichtsverfahren** oder Audits, die das Auftragsverarbeitungsverhältnis betreffen
 - **Komplexe Mehrparteien-Verarbeitungsstrukturen** mit gemeinsam Verantwortlichen, mehreren Auftragsverarbeitern und Unterauftragsverarbeitern über Jurisdiktionen hinweg
-- **Sektorspezifische Anforderungen** für Finanzdienstleistungen (BaFin-Leitlinien zur Auslagerung, MaRisk AT 9), Gesundheitswesen (§ 203 StGB Berufsgeheimnis) oder Telekommunikation (§ 3 TTDSG)
+- **Sektorspezifische Anforderungen** für Finanzdienstleistungen (DORA Art. 30, BaFin-Leitlinien zur Auslagerung, MaRisk AT 9), Gesundheitswesen (§ 203 StGB Berufsgeheimnis) oder Telekommunikation (§ 3 TTDSG)
 
 Compound unterstützt gerne bei der Prüfung, Verhandlung und Gestaltung von AVV, die den Anforderungen der DSGVO und des BDSG entsprechen.

@@ -1,6 +1,6 @@
 ---
 name: kuendigungspruefung
-description: 'Checkliste zur Prüfung von Kündigungen nach deutschem Arbeitsrecht. Kündigungsfristen, Kündigungsschutz und Abfindungen.'
+description: 'Kündigung rechtlich prüfen lassen: Kündigungsfristen, Kündigungsschutz nach KSchG und Abfindungsansprüche anwaltlich analysieren — für Arbeitnehmer und Unternehmen.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Checkliste zur Prüfung von Kündigungen nach deutschem Arbeitsrec
 Dieser Skill bietet eine systematische Prüfung von Kündigungen nach deutschem Arbeitsrecht. Deutschland gewährt einen starken gesetzlichen Kündigungsschutz, weshalb die Einhaltung formeller und materieller Voraussetzungen entscheidend ist. Der primäre Rechtsrahmen umfasst **§ 622 BGB** (Kündigungsfristen), das **Kündigungsschutzgesetz (KSchG)**, **§ 102 BetrVG** (Betriebsratsanhörung) und diverse Sonderkündigungsschutzvorschriften. Dieser Skill ist anzuwenden bei der Beratung von Arbeitgebern zu geplanten Kündigungen, bei der Prüfung von Kündigungsschreiben auf Verfahrensfehler oder bei der Bewertung von Kündigungsschutzansprüchen von Arbeitnehmern.
 
 Eine Kündigung, die zwingende Voraussetzungen nicht erfüllt, ist nichtig (§ 134 BGB) oder anfechtbar -- und der Arbeitnehmer hat ab Zugang der Kündigung nur **drei Wochen** Zeit, Kündigungsschutzklage beim Arbeitsgericht zu erheben (§ 4 KSchG). Bei Versäumung dieser Frist gilt die Kündigung grundsätzlich als wirksam, ungeachtet etwaiger Mängel. Dies erzeugt Dringlichkeit auf beiden Seiten: Der Arbeitgeber muss von Anfang an alles richtig machen, und der Arbeitnehmer muss schnell handeln.
+
+Die Arbeitsvertragsklauseln — insbesondere Kündigungsfristen, Probezeit und nachvertragliche Wettbewerbsverbote — sind vor jeder Kündigung zu prüfen; den Prüfrahmen bietet der Skill [Arbeitsvertragsprüfung](/de-DE/skills/arbeitsvertragspruefung/). Nach der Kündigung hat der Arbeitnehmer Anspruch auf ein qualifiziertes Zeugnis — den Bewertungsrahmen liefert der Skill [Arbeitszeugnisbewertung](/de-DE/skills/arbeitszeugnis/). Nachvertragliche Wettbewerbsverbote in Aufhebungsverträgen sind hinsichtlich Karenzentschädigung und Durchsetzbarkeit nach dem Skill [NDA-Prüfung](/de-DE/skills/nda-pruefung/) zu bewerten.
 
 
 ## Systematische Prüfung

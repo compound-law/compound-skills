@@ -16,6 +16,8 @@ Review each layer in sequence. If a clause already fails at the incorporation st
 
 **Important:** Individually negotiated terms always take precedence over standard terms (§ 305b BGB) -- even an oral agreement overrides a written standard clause. Therefore, always check first whether an individual agreement exists.
 
+SaaS and cloud service terms require additional review under the [SaaS Agreement Review](/en-DE/skills/saas-agreement/) skill for SLA commitments, exit provisions, and EU Data Act portability rights. Terms that involve data processing activities must be supplemented by a compliant [Data Processing Agreement](/en-DE/skills/data-processing-agreement/) under Art. 28 GDPR. Where terms include confidentiality provisions, these must also satisfy the requirements of a valid [NDA under German law](/en-DE/skills/nda-review/).
+
 
 ## 2. Review Framework
 

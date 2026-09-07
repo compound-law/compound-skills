@@ -10,6 +10,8 @@ This skill guides the structured review of shareholder agreements (Gesellschafte
 
 A well-drafted shareholder agreement must address the gap between the relatively sparse GmbHG defaults and the practical needs of multi-party ventures. German courts apply strict standards to contractual penalties, non-compete clauses, and transfer restrictions in shareholder agreements, making careful drafting and review essential. Unlike the articles of association, a shareholder agreement binds only its parties as a matter of contract law (schuldrechtliche Vereinbarung) and is not filed with the commercial register -- this creates both flexibility and enforcement risks that must be understood from the outset.
 
+The shareholder agreement presupposes a correctly formed GmbH — the foundational requirements are covered in the [GmbH Formation Checklist](/en-DE/skills/gmbh-formation/) skill. NDAs governing the exchange of information between shareholders or with third parties during negotiations should be reviewed under the [NDA Review](/en-DE/skills/nda-review/) skill. Where the agreement covers founder or director service agreements, the GmbH-Geschäftsführer-specific termination rules are analyzed in the [Employment Termination Review](/en-DE/skills/employment-termination/) skill.
+
 
 ## Systematic Review
 

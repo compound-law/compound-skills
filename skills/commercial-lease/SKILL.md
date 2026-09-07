@@ -10,6 +10,8 @@ This skill provides a structured review of commercial lease agreements (Gewerbem
 
 German commercial leases are typically long-term (5-15 years) with limited termination options. Form defects under § 550 BGB can have severe consequences -- a lease that does not comply with written form requirements is deemed concluded for an indefinite period and may be terminated with statutory notice, even if the parties intended a fixed term of ten years. This makes form compliance review a critical first step. The freedom of contract also means that tenants may inadvertently accept obligations far beyond the statutory defaults, particularly regarding maintenance, operating costs, and restoration at lease end.
 
+Before entering into a commercial lease, new businesses should complete the [GmbH Formation](/en-DE/skills/gmbh-formation/) process to establish the correct legal entity as tenant. Standard business terms embedded in the landlord's lease template — such as operating cost catalogs or restoration clauses — are reviewed under the [Terms & Conditions Check](/en-DE/skills/terms-check/) framework. Confidentiality obligations exchanged during lease negotiations are governed by the [NDA Review](/en-DE/skills/nda-review/) skill.
+
 
 ## Systematic Review
 

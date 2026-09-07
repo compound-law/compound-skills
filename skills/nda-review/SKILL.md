@@ -10,6 +10,8 @@ This skill guides the systematic review of non-disclosure agreements (NDAs) unde
 
 NDAs qualify as **reasonable protective measures** within the meaning of **§ 2 No. 1 lit. b GeschGehG** (German Trade Secrets Act) and are therefore a prerequisite for statutory trade secret protection. A defective NDA can cause trade secrets to lose their protected status entirely.
 
+NDAs often accompany corporate transactions and investment negotiations. For the shareholder agreement context in which M&A NDAs arise, see the [Shareholder Agreement Review](/en-DE/skills/shareholder-agreement/) skill. Where the NDA governs the exchange of personal data between the parties, a [Data Processing Agreement](/en-DE/skills/data-processing-agreement/) under Art. 28 GDPR may also be required. Employee NDAs with post-contractual restrictions are analyzed alongside [Employment Termination Review](/en-DE/skills/employment-termination/) for the Karenzentschädigung requirements.
+
 
 ## Systematic Review
 

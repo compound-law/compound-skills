@@ -1,6 +1,6 @@
 ---
 name: gesellschaftervereinbarung
-description: 'Strukturierte Prüfung von Gesellschaftervereinbarungen nach deutschem Gesellschaftsrecht. Stimmrechte, Verfügungsbeschränkungen und Austrittsregelungen.'
+description: 'Gesellschaftervereinbarung anwaltlich prüfen: Stimmrechte, Vesting, Drag-along und Austrittsklauseln nach deutschem GmbH-Recht auf Risiken und Lücken analysieren.'
 ---
 
 
@@ -9,6 +9,8 @@ description: 'Strukturierte Prüfung von Gesellschaftervereinbarungen nach deuts
 Dieser Skill leitet die strukturierte Prüfung von Gesellschaftervereinbarungen (Shareholder Agreements) für deutsche Gesellschaften mit beschränkter Haftung (GmbH) an. Die GmbH wird durch das GmbHG geregelt, doch Gesellschaftervereinbarungen begründen zusätzliche Rechte und Pflichten neben dem Gesellschaftsvertrag (Satzung). Wesentliche gesetzliche Grundlagen sind **§ 47 GmbHG** (Stimmrechte), **§ 15 GmbHG** (Übertragung von Geschäftsanteilen), **§ 53 GmbHG** (Satzungsänderungen) und **§ 29 GmbHG** (Gewinnverteilung). Dieser Skill ist anzuwenden bei Eintritt in eine GmbH-Beteiligungsstruktur, bei Neuverhandlung bestehender Vereinbarungen, beim Austritt eines Gesellschafters oder bei der Due Diligence der Governance-Struktur eines Zielunternehmens.
 
 Eine sorgfältig ausgearbeitete Gesellschaftervereinbarung muss die Lücke zwischen den vergleichsweise knappen Regelungen des GmbHG und den praktischen Bedürfnissen von Mehrparteien-Beteiligungen schließen. Die deutsche Rechtsprechung legt strenge Maßstäbe an Vertragsstrafen, Wettbewerbsverbote und Verfügungsbeschränkungen in Gesellschaftervereinbarungen an, weshalb eine sorgfältige Gestaltung und Prüfung unerlässlich ist. Im Gegensatz zur Satzung bindet die Gesellschaftervereinbarung als schuldrechtliche Vereinbarung nur ihre Parteien und wird nicht im Handelsregister eingetragen -- dies schafft Flexibilität, birgt aber auch Durchsetzungsrisiken, die von Beginn an erkannt werden müssen.
+
+Die Gesellschaftervereinbarung setzt eine korrekt gegründete GmbH voraus — die formalen Gründungsvoraussetzungen liefert der Skill [GmbH-Gründungs-Checkliste](/de-DE/skills/gmbh-gruendung/). NDAs, die den Informationsaustausch zwischen Gesellschaftern oder mit Dritten in der Verhandlungsphase regeln, sind nach dem Skill [NDA-Prüfung](/de-DE/skills/nda-pruefung/) zu bewerten. Die Beendigung von Geschäftsführer-Dienstverträgen unterliegt besonderen Regeln — dazu ausführlich der Skill [Kündigungsprüfung](/de-DE/skills/kuendigungspruefung/).
 
 
 ## Systematische Prüfung

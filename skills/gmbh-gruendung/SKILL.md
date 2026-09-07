@@ -1,6 +1,6 @@
 ---
 name: gmbh-gruendung
-description: 'Schritt-für-Schritt-Anleitung zur GmbH-Gründung in Deutschland. Gesellschaftsvertrag, Notar, Handelsregister und häufige Fallstricke.'
+description: 'GmbH gründen in Deutschland: Gesellschaftsvertrag, Notartermin und Handelsregistereintrag strukturiert vorbereiten — rechtssicher und ohne typische Gründungsfehler.'
 ---
 
 
@@ -14,6 +14,8 @@ Dieser Leitfaden führt durch den gesamten Gründungsprozess — von der Entsche
 Die Gründung einer GmbH folgt einem festen Ablauf: Gesellschaftsvertrag aufsetzen, notariell beurkunden, Stammkapital einzahlen, Handelsregistereintragung beantragen, behördliche Registrierungen durchführen. Die Rechtsgrundlage ist das GmbH-Gesetz (GmbHG).
 
 Was einfach klingt, birgt Fehlerquellen in jedem Schritt. Der Gesellschaftsvertrag muss nicht nur den gesetzlichen Pflichtinhalt enthalten, sondern auch die Beziehungen der Gesellschafter untereinander regeln. Die Kapitalaufbringung unterliegt strengen Vorschriften. Und nach der Eintragung beginnt eine Reihe von Meldepflichten, die regelmäßig übersehen werden.
+
+Nach der Gründung sollte die Beziehung zwischen den Gesellschaftern durch eine [Gesellschaftervereinbarung](/de-DE/skills/gesellschaftervereinbarung/) geregelt werden — der entsprechende Skill bietet den Prüfrahmen vor der ersten Investorenrunde. Frühphasige Unternehmen sollten Geheimhaltungsvereinbarungen im Umgang mit Investoren und Partnern durch den Skill [NDA-Prüfung](/de-DE/skills/nda-pruefung/) absichern. Allgemeine Geschäftsbedingungen für die Kundenverträge des neugegründeten Unternehmens sind nach dem Skill [AGB-Check](/de-DE/skills/agb-check/) auf Wirksamkeit zu prüfen.
 
 
 ## Entscheidungen vor der Gründung

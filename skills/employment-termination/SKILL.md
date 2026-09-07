@@ -10,6 +10,8 @@ This skill provides a systematic review of employment terminations (Kundigungen)
 
 A dismissal that fails to comply with mandatory requirements is void (§ 134 BGB) or voidable -- and the employee has only **three weeks** from receipt of the termination notice to file a claim with the labor court (§ 4 KSchG). Missing this deadline generally results in the termination being deemed effective, regardless of defects. This creates urgency on both sides: the employer must get it right from the start, and the employee must act quickly.
 
+The employment contract terms — particularly notice periods, probation clauses, and non-compete obligations — must be reviewed before proceeding with any termination. Use the [Employment Contract Review](/en-DE/skills/employment-contract-review/) skill for this analysis. Following termination, the employee is entitled to a qualified reference under § 109 GewO — see the [Employment Reference Analysis](/en-DE/skills/employment-reference/) skill. Where a settlement agreement includes non-compete obligations, the compensation requirements and enforceability are covered in the [NDA Review](/en-DE/skills/nda-review/) skill.
+
 
 ## Systematic Review
 

@@ -12,6 +12,8 @@ This skill walks you through the complete handling of data access requests under
 
 **Risk of non-compliance:** Fines of up to EUR 20 million or 4% of annual worldwide turnover (Art. 83(5) GDPR), plus damages claims by data subjects (Art. 82 GDPR).
 
+Where personal data has been shared with external processors, those processors' obligation to assist with data subject requests is governed by the [Data Processing Agreement](/en-DE/skills/data-processing-agreement/) under Art. 28(3)(e) GDPR. AI systems using automated individual decision-making under Art. 22 GDPR create additional disclosure obligations that connect to the [AI Act Compliance Check](/en-DE/skills/ai-act-compliance/). Whistleblower systems create specific restrictions on data subject access rights — the [Whistleblower System Setup](/en-DE/skills/compliance-whistleblower/) skill covers the deferred disclosure rules under Art. 14(5)(b) GDPR.
+
 ## Step-by-Step Process
 
 ### Step 1: Receipt and Documentation

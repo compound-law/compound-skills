@@ -1,6 +1,6 @@
 ---
 name: agb-check
-description: 'Prüft Allgemeine Geschäftsbedingungen auf Wirksamkeit nach deutschem AGB-Recht. Erkennt unwirksame Klauseln und Verstöße gegen §§ 305-310 BGB.'
+description: 'Lassen Sie Ihre AGB von spezialisierten Anwälten prüfen. Unwirksame Klauseln nach §§ 307–309 BGB erkennen und rechtssicher gestalten. Jetzt anfragen.'
 ---
 
 
@@ -15,6 +15,8 @@ Dieser Skill prüft **Allgemeine Geschäftsbedingungen (AGB)** systematisch auf 
 Prüfe jede Schicht der Reihe nach. Fällt eine Klausel bereits bei der Einbeziehungskontrolle durch, erübrigt sich die Inhaltskontrolle.
 
 **Wichtig:** Individualvereinbarungen gehen AGB stets vor (§ 305b BGB) -- auch eine mündliche Abrede schlägt eine schriftliche AGB-Klausel. Prüfe daher zuerst, ob eine Individualvereinbarung vorliegt.
+
+SaaS- und Cloud-Dienstleister-AGB erfordern eine ergänzende Prüfung nach dem Skill [SaaS-Vertrag prüfen](/de-DE/skills/saas-vertragspruefung/) für SLA-Verpflichtungen, Austrittsklauseln und EU Data Act-Portabilitätsrechte. AGB, die Datenverarbeitungstätigkeiten umfassen, müssen durch einen konformen [Auftragsverarbeitungsvertrag (AVV)](/de-DE/skills/auftragsverarbeitung/) nach Art. 28 DSGVO ergänzt werden. Enthalten die AGB Geheimhaltungsklauseln, sind diese zusätzlich an den Anforderungen einer wirksamen [NDA nach deutschem Recht](/de-DE/skills/nda-pruefung/) zu messen.
 
 
 ## 2. Prüfungsrahmen

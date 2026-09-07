@@ -10,6 +10,8 @@ This skill guides the review of data processing agreements (Auftragsverarbeitung
 
 In practice, most DPAs are drafted by the processor and presented on a take-it-or-leave-it basis. The reviewing lawyer must identify non-negotiable mandatory content, flag deviations from GDPR requirements, and assess whether the overall allocation of risk and responsibility is acceptable for the controller client. German supervisory authorities -- particularly the state data protection commissioners (LfDI) and the Federal Commissioner (BfDI) -- have issued detailed guidance and have imposed fines specifically for defective DPAs.
 
+Data subjects covered by the DPA have the right to access their personal data — the full response process is covered in the [GDPR Data Access Request](/en-DE/skills/gdpr-data-request/) skill. For AI systems deployed as processors, the [AI Act Compliance Check](/en-DE/skills/ai-act-compliance/) may impose additional technical documentation requirements alongside the DPA. Whistleblower systems engaging external platform providers require their own DPA — see the [Whistleblower System Setup](/en-DE/skills/compliance-whistleblower/) skill for the complete compliance framework.
+
 
 ## Systematic Review
 
@@ -146,6 +148,8 @@ SaaS DPAs are typically non-negotiable. Focus on:
 - **Data location:** Confirm whether data is stored exclusively within the EEA or also in third countries. "EU data residency" options may be available for an additional fee.
 - **Encryption and access:** Verify whether the provider can access unencrypted customer data and under what circumstances. Bring-your-own-key (BYOK) or hold-your-own-key (HYOK) encryption may mitigate access risks.
 - **Data portability on exit:** The DPA should guarantee data export in standard formats within a defined period after termination.
+
+Before signing a SaaS agreement, review the full commercial terms alongside the DPA — see the [SaaS Agreement Review](/en-DE/skills/saas-agreement/) skill for a structured approach to liability caps, SLA commitments, and exit provisions.
 
 ### Group-Internal DPAs
 

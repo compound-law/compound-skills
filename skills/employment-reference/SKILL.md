@@ -10,6 +10,8 @@ This skill enables the professional analysis and evaluation of German employment
 
 **Legal basis:** The employment reference is governed by **§ 109 GewO** (German Trade, Commerce and Industry Regulation Act). Two principles stand in tension with each other: the **duty of truthfulness** (Wahrheitspflicht -- the reference must be accurate) and the **duty of benevolence** (Wohlwollenspflicht -- it must not unfairly hinder the employee's future career). § 109(2) GewO expressly prohibits characteristics or formulations whose purpose is to convey a meaning other than their literal wording. Despite this prohibition, an elaborate system of hidden codes has become established in practice.
 
+References are typically issued as part of the termination process — for the full procedural checklist see the [Employment Termination Review](/en-DE/skills/employment-termination/) skill. The underlying contract terms also affect entitlement and scope — see the [Employment Contract Review](/en-DE/skills/employment-contract-review/) skill. Where the departing employee is subject to post-contractual non-compete obligations, those clauses should also be assessed under the [NDA Review](/en-DE/skills/nda-review/) skill before departure.
+
 ## Scope
 
 - Simple and qualified employment references

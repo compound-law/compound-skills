@@ -10,6 +10,8 @@ This skill provides a structured compliance assessment for AI systems under **Re
 
 The AI Act applies to providers, deployers, importers, and distributors of AI systems placed on the EU market or whose output is used in the EU, regardless of where the provider is established (Art. 2 Abs. 1). German companies must also consider the interplay with GDPR, sector-specific regulation (e.g., MDR for medical AI, MiFID II for financial AI, the Product Liability Directive), and the anticipated national implementation provisions. The regulation's extraterritorial reach means that non-EU providers serving EU customers are equally captured.
 
+AI systems that process personal data require a compliant [Data Processing Agreement](/en-DE/skills/data-processing-agreement/) under Art. 28 GDPR in parallel with this AI Act assessment. Data subjects covered by AI-driven automated decisions also have access rights — the [GDPR Data Access Request](/en-DE/skills/gdpr-data-request/) skill covers the Art. 15 GDPR response process. AI-powered employee monitoring further triggers co-determination obligations under § 87 Abs. 1 Nr. 6 BetrVG, which intersects with the [Whistleblower System Setup](/en-DE/skills/compliance-whistleblower/) obligations for technical surveillance systems.
+
 
 ## Systematic Review
 

@@ -15,6 +15,8 @@ Forming a GmbH follows a fixed sequence: draft the articles of association, have
 
 What sounds straightforward has pitfalls at every step. The articles of association must not only include the mandatory statutory content, but also govern the relationships between shareholders. Capital contributions are subject to strict rules. And after registration, a series of reporting obligations begin that are regularly overlooked.
 
+After formation, the relationship between shareholders should be governed by a [Shareholder Agreement](/en-DE/skills/shareholder-agreement/) — this skill provides the review framework before investor rounds. Early-stage companies sharing confidential business information with investors or partners should establish NDA protection using the [NDA Review](/en-DE/skills/nda-review/) skill. Standard business terms for the new company's customer contracts should be reviewed for validity under the [Terms & Conditions Check](/en-DE/skills/terms-check/) framework.
+
 
 ## Pre-Formation Decisions
 
